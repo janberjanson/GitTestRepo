@@ -9,8 +9,11 @@
 <?php
 $name="test";
 echo $name .' me <br>'; 
+	
 echo "$name me<br>"; 
+	
 echo '$name me<br>'; 
+	
 echo "{$name}me<br>"; 
 echo "[$name]me<br>"; 
 echo ucfirst($name); 
